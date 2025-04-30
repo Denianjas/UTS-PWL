@@ -16,18 +16,7 @@ class Home extends BaseController
     {
         return view('v_produk');
     }
-        public function kategori()
-    {
-        $data['kat'] = [
-            'Pakaian',
-            'Sepatu',
-            'Aksesoris',
-            'Jeans',
-            
-        ];
 
-        return view('v_kategori', $data);
-    }
 
     public function detailKategori($kat)
     {
